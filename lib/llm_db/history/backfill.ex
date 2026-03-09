@@ -370,12 +370,18 @@ defmodule LLMDB.History.Backfill do
       |> Enum.drop_while(&(&1 != from_sha))
       |> then(&{:ok, &1})
     else
-      {:error, reason} ->
-        {:error, reason}
+      {:error, _reason} ->
+        {:error, metadata_history_range_error(from_ref)}
 
       false ->
-        {:error, "from commit #{from_ref} is not in the metadata history range"}
+        {:error, metadata_history_range_error(from_ref)}
     end
+  end
+
+  defp metadata_history_range_error(from_ref) do
+    "commit #{from_ref} is not reachable in the metadata history range. " <>
+      "If this came from priv/llm_db/history/meta.json, a metadata-update PR was likely squash-merged or rebase-merged. " <>
+      "Merge metadata-update PRs with a merge commit."
   end
 
   defp process_commits(commits, output_dir, lineage_overrides) do

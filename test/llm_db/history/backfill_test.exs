@@ -105,6 +105,21 @@ defmodule LLMDB.History.BackfillTest do
     end
   end
 
+  describe "check/1" do
+    test "returns a merge-guidance error when to_commit is unreachable" do
+      output_dir = temp_output_dir()
+
+      on_exit(fn -> File.rm_rf!(output_dir) end)
+
+      write_meta(output_dir, %{"to_commit" => String.duplicate("0", 40)})
+
+      assert {:error, message} = Backfill.check(output_dir: output_dir, to: "HEAD")
+      assert message =~ "not reachable in the metadata history range"
+      assert message =~ "squash-merged or rebase-merged"
+      assert message =~ "merge commit"
+    end
+  end
+
   defp temp_output_dir do
     path =
       Path.join(
@@ -131,5 +146,10 @@ defmodule LLMDB.History.BackfillTest do
     output
     |> String.split("\n", trim: true)
     |> List.first()
+  end
+
+  defp write_meta(output_dir, meta) do
+    path = Path.join(output_dir, "meta.json")
+    File.write!(path, Jason.encode!(meta))
   end
 end
