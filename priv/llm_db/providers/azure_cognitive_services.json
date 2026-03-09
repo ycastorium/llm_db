@@ -48,7 +48,8 @@
           "npm": "@ai-sdk/anthropic"
         },
         "structured_output": true,
-        "temperature": true
+        "temperature": true,
+        "wire_protocol": "anthropic_messages"
       },
       "family": null,
       "id": "claude-haiku-4-5",
@@ -115,7 +116,8 @@
           "npm": "@ai-sdk/anthropic"
         },
         "structured_output": true,
-        "temperature": true
+        "temperature": true,
+        "wire_protocol": "anthropic_messages"
       },
       "family": null,
       "id": "claude-opus-4-1",
@@ -181,7 +183,8 @@
           "api": "https://${AZURE_COGNITIVE_SERVICES_RESOURCE_NAME}.services.ai.azure.com/anthropic/v1",
           "npm": "@ai-sdk/anthropic"
         },
-        "temperature": true
+        "temperature": true,
+        "wire_protocol": "anthropic_messages"
       },
       "family": null,
       "id": "claude-opus-4-5",
@@ -247,7 +250,8 @@
           "api": "https://${AZURE_COGNITIVE_SERVICES_RESOURCE_NAME}.services.ai.azure.com/anthropic/v1",
           "npm": "@ai-sdk/anthropic"
         },
-        "temperature": true
+        "temperature": true,
+        "wire_protocol": "anthropic_messages"
       },
       "family": null,
       "id": "claude-opus-4-6",
@@ -314,7 +318,8 @@
           "npm": "@ai-sdk/anthropic"
         },
         "structured_output": true,
-        "temperature": true
+        "temperature": true,
+        "wire_protocol": "anthropic_messages"
       },
       "family": null,
       "id": "claude-sonnet-4-5",
@@ -374,7 +379,8 @@
         "attachment": false,
         "family": "codestral",
         "open_weights": false,
-        "temperature": true
+        "temperature": true,
+        "wire_protocol": "openai_completion"
       },
       "family": null,
       "id": "codestral-2501",
@@ -433,7 +439,8 @@
         "attachment": true,
         "family": "gpt-codex-mini",
         "open_weights": false,
-        "temperature": false
+        "temperature": false,
+        "wire_protocol": "openai_responses"
       },
       "family": null,
       "id": "codex-mini",
@@ -491,7 +498,8 @@
         "attachment": false,
         "family": "command-a",
         "open_weights": true,
-        "temperature": true
+        "temperature": true,
+        "wire_protocol": "openai_completion"
       },
       "family": null,
       "id": "cohere-command-a",
@@ -549,7 +557,8 @@
         "attachment": false,
         "family": "command-r",
         "open_weights": true,
-        "temperature": true
+        "temperature": true,
+        "wire_protocol": "openai_completion"
       },
       "family": null,
       "id": "cohere-command-r-08-2024",
@@ -607,7 +616,8 @@
         "attachment": false,
         "family": "command-r",
         "open_weights": true,
-        "temperature": true
+        "temperature": true,
+        "wire_protocol": "openai_completion"
       },
       "family": null,
       "id": "cohere-command-r-plus-08-2024",
@@ -793,7 +803,8 @@
         "attachment": false,
         "family": "deepseek-thinking",
         "open_weights": true,
-        "temperature": true
+        "temperature": true,
+        "wire_protocol": "openai_completion"
       },
       "family": null,
       "id": "deepseek-r1",
@@ -851,7 +862,8 @@
         "attachment": false,
         "family": "deepseek-thinking",
         "open_weights": true,
-        "temperature": true
+        "temperature": true,
+        "wire_protocol": "openai_completion"
       },
       "family": null,
       "id": "deepseek-r1-0528",
@@ -909,7 +921,8 @@
         "attachment": false,
         "family": "deepseek",
         "open_weights": true,
-        "temperature": true
+        "temperature": true,
+        "wire_protocol": "openai_completion"
       },
       "family": null,
       "id": "deepseek-v3-0324",
@@ -967,7 +980,8 @@
         "attachment": false,
         "family": "deepseek",
         "open_weights": true,
-        "temperature": true
+        "temperature": true,
+        "wire_protocol": "openai_completion"
       },
       "family": null,
       "id": "deepseek-v3.1",
@@ -1025,7 +1039,8 @@
         "attachment": false,
         "family": "deepseek",
         "open_weights": true,
-        "temperature": true
+        "temperature": true,
+        "wire_protocol": "openai_completion"
       },
       "family": null,
       "id": "deepseek-v3.2",
@@ -1087,7 +1102,8 @@
         "attachment": false,
         "family": "deepseek",
         "open_weights": true,
-        "temperature": true
+        "temperature": true,
+        "wire_protocol": "openai_completion"
       },
       "family": null,
       "id": "deepseek-v3.2-speciale",
@@ -1350,7 +1366,8 @@
         "attachment": false,
         "family": "gpt",
         "open_weights": false,
-        "temperature": true
+        "temperature": true,
+        "wire_protocol": "openai_responses"
       },
       "family": null,
       "id": "gpt-4",
@@ -1408,7 +1425,8 @@
         "attachment": false,
         "family": "gpt",
         "open_weights": false,
-        "temperature": true
+        "temperature": true,
+        "wire_protocol": "openai_responses"
       },
       "family": null,
       "id": "gpt-4-32k",
@@ -1585,7 +1603,8 @@
         "attachment": true,
         "family": "gpt",
         "open_weights": false,
-        "temperature": true
+        "temperature": true,
+        "wire_protocol": "openai_responses"
       },
       "family": null,
       "id": "gpt-4.1",
@@ -1645,7 +1664,8 @@
         "attachment": true,
         "family": "gpt-mini",
         "open_weights": false,
-        "temperature": true
+        "temperature": true,
+        "wire_protocol": "openai_responses"
       },
       "family": null,
       "id": "gpt-4.1-mini",
@@ -1705,7 +1725,8 @@
         "attachment": true,
         "family": "gpt-nano",
         "open_weights": false,
-        "temperature": true
+        "temperature": true,
+        "wire_protocol": "openai_responses"
       },
       "family": null,
       "id": "gpt-4.1-nano",
@@ -1765,7 +1786,8 @@
         "attachment": true,
         "family": "gpt",
         "open_weights": false,
-        "temperature": true
+        "temperature": true,
+        "wire_protocol": "openai_responses"
       },
       "family": null,
       "id": "gpt-4o",
@@ -1825,7 +1847,8 @@
         "attachment": true,
         "family": "gpt-mini",
         "open_weights": false,
-        "temperature": true
+        "temperature": true,
+        "wire_protocol": "openai_responses"
       },
       "family": null,
       "id": "gpt-4o-mini",
@@ -1885,7 +1908,8 @@
         "attachment": true,
         "family": "gpt",
         "open_weights": false,
-        "temperature": false
+        "temperature": false,
+        "wire_protocol": "openai_responses"
       },
       "family": null,
       "id": "gpt-5",
@@ -1949,7 +1973,8 @@
         "attachment": true,
         "family": "gpt-codex",
         "open_weights": false,
-        "temperature": false
+        "temperature": false,
+        "wire_protocol": "openai_responses"
       },
       "family": null,
       "id": "gpt-5-chat",
@@ -2009,7 +2034,8 @@
         "attachment": false,
         "family": "gpt-codex",
         "open_weights": false,
-        "temperature": false
+        "temperature": false,
+        "wire_protocol": "openai_responses"
       },
       "family": null,
       "id": "gpt-5-codex",
@@ -2069,7 +2095,8 @@
         "attachment": true,
         "family": "gpt-mini",
         "open_weights": false,
-        "temperature": false
+        "temperature": false,
+        "wire_protocol": "openai_responses"
       },
       "family": null,
       "id": "gpt-5-mini",
@@ -2129,7 +2156,8 @@
         "attachment": true,
         "family": "gpt-nano",
         "open_weights": false,
-        "temperature": false
+        "temperature": false,
+        "wire_protocol": "openai_responses"
       },
       "family": null,
       "id": "gpt-5-nano",
@@ -2189,7 +2217,8 @@
         "family": "gpt-pro",
         "open_weights": false,
         "structured_output": true,
-        "temperature": false
+        "temperature": false,
+        "wire_protocol": "openai_responses"
       },
       "family": null,
       "id": "gpt-5-pro",
@@ -2249,7 +2278,8 @@
         "attachment": true,
         "family": "gpt",
         "open_weights": false,
-        "temperature": false
+        "temperature": false,
+        "wire_protocol": "openai_responses"
       },
       "family": null,
       "id": "gpt-5.1",
@@ -2312,7 +2342,8 @@
         "attachment": true,
         "family": "gpt-codex",
         "open_weights": false,
-        "temperature": false
+        "temperature": false,
+        "wire_protocol": "openai_responses"
       },
       "family": null,
       "id": "gpt-5.1-chat",
@@ -2375,7 +2406,8 @@
         "attachment": false,
         "family": "gpt-codex",
         "open_weights": false,
-        "temperature": false
+        "temperature": false,
+        "wire_protocol": "openai_responses"
       },
       "family": null,
       "id": "gpt-5.1-codex",
@@ -2438,7 +2470,8 @@
         "attachment": false,
         "family": "gpt-codex",
         "open_weights": false,
-        "temperature": false
+        "temperature": false,
+        "wire_protocol": "openai_responses"
       },
       "family": null,
       "id": "gpt-5.1-codex-mini",
@@ -2498,7 +2531,8 @@
         "attachment": true,
         "family": "gpt",
         "open_weights": false,
-        "temperature": false
+        "temperature": false,
+        "wire_protocol": "openai_responses"
       },
       "family": null,
       "id": "gpt-5.2",
@@ -2559,7 +2593,8 @@
         "family": "gpt-codex",
         "open_weights": false,
         "structured_output": true,
-        "temperature": false
+        "temperature": false,
+        "wire_protocol": "openai_responses"
       },
       "family": null,
       "id": "gpt-5.2-chat",
@@ -2619,7 +2654,8 @@
         "attachment": false,
         "family": "gpt-codex",
         "open_weights": false,
-        "temperature": false
+        "temperature": false,
+        "wire_protocol": "openai_responses"
       },
       "family": null,
       "id": "gpt-5.2-codex",
@@ -2679,7 +2715,8 @@
         "attachment": false,
         "family": "gpt-codex",
         "open_weights": false,
-        "temperature": false
+        "temperature": false,
+        "wire_protocol": "openai_responses"
       },
       "family": null,
       "id": "gpt-5.3-codex",
@@ -2739,7 +2776,8 @@
         "attachment": false,
         "family": "grok",
         "open_weights": false,
-        "temperature": true
+        "temperature": true,
+        "wire_protocol": "openai_completion"
       },
       "family": null,
       "id": "grok-3",
@@ -2799,7 +2837,8 @@
         "attachment": false,
         "family": "grok",
         "open_weights": false,
-        "temperature": true
+        "temperature": true,
+        "wire_protocol": "openai_completion"
       },
       "family": null,
       "id": "grok-3-mini",
@@ -2859,7 +2898,8 @@
         "attachment": false,
         "family": "grok",
         "open_weights": false,
-        "temperature": true
+        "temperature": true,
+        "wire_protocol": "openai_completion"
       },
       "family": null,
       "id": "grok-4",
@@ -2918,7 +2958,8 @@
         "attachment": true,
         "family": "grok",
         "open_weights": false,
-        "temperature": true
+        "temperature": true,
+        "wire_protocol": "openai_completion"
       },
       "family": null,
       "id": "grok-4-fast-non-reasoning",
@@ -2978,7 +3019,8 @@
         "attachment": true,
         "family": "grok",
         "open_weights": false,
-        "temperature": true
+        "temperature": true,
+        "wire_protocol": "openai_completion"
       },
       "family": null,
       "id": "grok-4-fast-reasoning",
@@ -3038,7 +3080,8 @@
         "attachment": false,
         "family": "grok",
         "open_weights": false,
-        "temperature": true
+        "temperature": true,
+        "wire_protocol": "openai_completion"
       },
       "family": null,
       "id": "grok-code-fast-1",
@@ -3098,7 +3141,8 @@
         "family": "kimi-thinking",
         "interleaved": true,
         "open_weights": true,
-        "temperature": true
+        "temperature": true,
+        "wire_protocol": "openai_completion"
       },
       "family": null,
       "id": "kimi-k2-thinking",
@@ -3158,7 +3202,8 @@
         "interleaved": true,
         "open_weights": true,
         "structured_output": true,
-        "temperature": true
+        "temperature": true,
+        "wire_protocol": "openai_completion"
       },
       "family": null,
       "id": "kimi-k2.5",
@@ -3217,7 +3262,8 @@
         "attachment": true,
         "family": "llama",
         "open_weights": true,
-        "temperature": true
+        "temperature": true,
+        "wire_protocol": "openai_completion"
       },
       "family": null,
       "id": "llama-3.2-11b-vision-instruct",
@@ -3276,7 +3322,8 @@
         "attachment": true,
         "family": "llama",
         "open_weights": true,
-        "temperature": true
+        "temperature": true,
+        "wire_protocol": "openai_completion"
       },
       "family": null,
       "id": "llama-3.2-90b-vision-instruct",
@@ -3335,7 +3382,8 @@
         "attachment": false,
         "family": "llama",
         "open_weights": true,
-        "temperature": true
+        "temperature": true,
+        "wire_protocol": "openai_completion"
       },
       "family": null,
       "id": "llama-3.3-70b-instruct",
@@ -3393,7 +3441,8 @@
         "attachment": true,
         "family": "llama",
         "open_weights": true,
-        "temperature": true
+        "temperature": true,
+        "wire_protocol": "openai_completion"
       },
       "family": null,
       "id": "llama-4-maverick-17b-128e-instruct-fp8",
@@ -3452,7 +3501,8 @@
         "attachment": true,
         "family": "llama",
         "open_weights": true,
-        "temperature": true
+        "temperature": true,
+        "wire_protocol": "openai_completion"
       },
       "family": null,
       "id": "llama-4-scout-17b-16e-instruct",
@@ -3515,7 +3565,8 @@
         "attachment": false,
         "family": "mai",
         "open_weights": false,
-        "temperature": true
+        "temperature": true,
+        "wire_protocol": "openai_completion"
       },
       "family": null,
       "id": "mai-ds-r1",
@@ -3556,7 +3607,8 @@
         "attachment": false,
         "family": "llama",
         "open_weights": true,
-        "temperature": true
+        "temperature": true,
+        "wire_protocol": "openai_completion"
       },
       "family": null,
       "id": "meta-llama-3-70b-instruct",
@@ -3597,7 +3649,8 @@
         "attachment": false,
         "family": "llama",
         "open_weights": true,
-        "temperature": true
+        "temperature": true,
+        "wire_protocol": "openai_completion"
       },
       "family": null,
       "id": "meta-llama-3-8b-instruct",
@@ -3655,7 +3708,8 @@
         "attachment": false,
         "family": "llama",
         "open_weights": true,
-        "temperature": true
+        "temperature": true,
+        "wire_protocol": "openai_completion"
       },
       "family": null,
       "id": "meta-llama-3.1-405b-instruct",
@@ -3713,7 +3767,8 @@
         "attachment": false,
         "family": "llama",
         "open_weights": true,
-        "temperature": true
+        "temperature": true,
+        "wire_protocol": "openai_completion"
       },
       "family": null,
       "id": "meta-llama-3.1-70b-instruct",
@@ -3771,7 +3826,8 @@
         "attachment": false,
         "family": "llama",
         "open_weights": true,
-        "temperature": true
+        "temperature": true,
+        "wire_protocol": "openai_completion"
       },
       "family": null,
       "id": "meta-llama-3.1-8b-instruct",
@@ -3829,7 +3885,8 @@
         "attachment": false,
         "family": "ministral",
         "open_weights": true,
-        "temperature": true
+        "temperature": true,
+        "wire_protocol": "openai_completion"
       },
       "family": null,
       "id": "ministral-3b",
@@ -3887,7 +3944,8 @@
         "attachment": false,
         "family": "mistral-large",
         "open_weights": false,
-        "temperature": true
+        "temperature": true,
+        "wire_protocol": "openai_completion"
       },
       "family": null,
       "id": "mistral-large-2411",
@@ -3945,7 +4003,8 @@
         "attachment": true,
         "family": "mistral-medium",
         "open_weights": false,
-        "temperature": true
+        "temperature": true,
+        "wire_protocol": "openai_completion"
       },
       "family": null,
       "id": "mistral-medium-2505",
@@ -4004,7 +4063,8 @@
         "attachment": false,
         "family": "mistral-nemo",
         "open_weights": true,
-        "temperature": true
+        "temperature": true,
+        "wire_protocol": "openai_completion"
       },
       "family": null,
       "id": "mistral-nemo",
@@ -4062,7 +4122,8 @@
         "attachment": true,
         "family": "mistral-small",
         "open_weights": false,
-        "temperature": true
+        "temperature": true,
+        "wire_protocol": "openai_completion"
       },
       "family": null,
       "id": "mistral-small-2503",
@@ -4180,7 +4241,8 @@
         "attachment": false,
         "family": "o",
         "open_weights": false,
-        "temperature": false
+        "temperature": false,
+        "wire_protocol": "openai_responses"
       },
       "family": null,
       "id": "o1",
@@ -4240,7 +4302,8 @@
         "attachment": false,
         "family": "o-mini",
         "open_weights": false,
-        "temperature": false
+        "temperature": false,
+        "wire_protocol": "openai_responses"
       },
       "family": null,
       "id": "o1-mini",
@@ -4299,7 +4362,8 @@
         "attachment": false,
         "family": "o",
         "open_weights": false,
-        "temperature": false
+        "temperature": false,
+        "wire_protocol": "openai_responses"
       },
       "family": null,
       "id": "o1-preview",
@@ -4358,7 +4422,8 @@
         "attachment": true,
         "family": "o",
         "open_weights": false,
-        "temperature": false
+        "temperature": false,
+        "wire_protocol": "openai_responses"
       },
       "family": null,
       "id": "o3",
@@ -4418,7 +4483,8 @@
         "attachment": false,
         "family": "o-mini",
         "open_weights": false,
-        "temperature": false
+        "temperature": false,
+        "wire_protocol": "openai_responses"
       },
       "family": null,
       "id": "o3-mini",
@@ -4477,7 +4543,8 @@
         "attachment": true,
         "family": "o-mini",
         "open_weights": false,
-        "temperature": false
+        "temperature": false,
+        "wire_protocol": "openai_responses"
       },
       "family": null,
       "id": "o4-mini",
@@ -4519,7 +4586,8 @@
         "attachment": false,
         "family": "phi",
         "open_weights": true,
-        "temperature": true
+        "temperature": true,
+        "wire_protocol": "openai_completion"
       },
       "family": null,
       "id": "phi-3-medium-128k-instruct",
@@ -4560,7 +4628,8 @@
         "attachment": false,
         "family": "phi",
         "open_weights": true,
-        "temperature": true
+        "temperature": true,
+        "wire_protocol": "openai_completion"
       },
       "family": null,
       "id": "phi-3-medium-4k-instruct",
@@ -4601,7 +4670,8 @@
         "attachment": false,
         "family": "phi",
         "open_weights": true,
-        "temperature": true
+        "temperature": true,
+        "wire_protocol": "openai_completion"
       },
       "family": null,
       "id": "phi-3-mini-128k-instruct",
@@ -4642,7 +4712,8 @@
         "attachment": false,
         "family": "phi",
         "open_weights": true,
-        "temperature": true
+        "temperature": true,
+        "wire_protocol": "openai_completion"
       },
       "family": null,
       "id": "phi-3-mini-4k-instruct",
@@ -4683,7 +4754,8 @@
         "attachment": false,
         "family": "phi",
         "open_weights": true,
-        "temperature": true
+        "temperature": true,
+        "wire_protocol": "openai_completion"
       },
       "family": null,
       "id": "phi-3-small-128k-instruct",
@@ -4724,7 +4796,8 @@
         "attachment": false,
         "family": "phi",
         "open_weights": true,
-        "temperature": true
+        "temperature": true,
+        "wire_protocol": "openai_completion"
       },
       "family": null,
       "id": "phi-3-small-8k-instruct",
@@ -4765,7 +4838,8 @@
         "attachment": false,
         "family": "phi",
         "open_weights": true,
-        "temperature": true
+        "temperature": true,
+        "wire_protocol": "openai_completion"
       },
       "family": null,
       "id": "phi-3.5-mini-instruct",
@@ -4806,7 +4880,8 @@
         "attachment": false,
         "family": "phi",
         "open_weights": true,
-        "temperature": true
+        "temperature": true,
+        "wire_protocol": "openai_completion"
       },
       "family": null,
       "id": "phi-3.5-moe-instruct",
@@ -4847,7 +4922,8 @@
         "attachment": false,
         "family": "phi",
         "open_weights": true,
-        "temperature": true
+        "temperature": true,
+        "wire_protocol": "openai_completion"
       },
       "family": null,
       "id": "phi-4",
@@ -4963,7 +5039,8 @@
         "attachment": false,
         "family": "phi",
         "open_weights": true,
-        "temperature": true
+        "temperature": true,
+        "wire_protocol": "openai_completion"
       },
       "family": null,
       "id": "phi-4-mini-reasoning",
@@ -5069,7 +5146,8 @@
         "attachment": false,
         "family": "phi",
         "open_weights": true,
-        "temperature": true
+        "temperature": true,
+        "wire_protocol": "openai_completion"
       },
       "family": null,
       "id": "phi-4-reasoning",
@@ -5131,7 +5209,8 @@
         "attachment": false,
         "family": "phi",
         "open_weights": true,
-        "temperature": true
+        "temperature": true,
+        "wire_protocol": "openai_completion"
       },
       "family": null,
       "id": "phi-4-reasoning-plus",
