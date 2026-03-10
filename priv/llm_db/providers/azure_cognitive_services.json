@@ -2886,7 +2886,8 @@
         "attachment": true,
         "open_weights": false,
         "structured_output": true,
-        "temperature": false
+        "temperature": false,
+        "wire_protocol": "openai_responses"
       },
       "family": null,
       "id": "gpt-5.4",
@@ -2945,7 +2946,8 @@
         "attachment": true,
         "open_weights": false,
         "structured_output": false,
-        "temperature": false
+        "temperature": false,
+        "wire_protocol": "openai_responses"
       },
       "family": null,
       "id": "gpt-5.4-pro",
